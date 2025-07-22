@@ -14,6 +14,17 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 The dataset is available at the [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
+Reference:
+
+[Moro et al., 2011]
+S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology.
+In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117–121, Guimarães, Portugal, October 2011. EUROSIS.
+Disponibile online:
+
+Available at: 
+* [pdf] http://hdl.handle.net/1822/14838
+* [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
+
 ## Objective
 
 To build and evaluate machine learning models capable of predicting customer subscription to a term deposit (`y`: yes/no), with attention to **class imbalance**, **feature selection**, and **model interpretability**.
@@ -98,10 +109,10 @@ The Gradient Boosting model achieved the highest ROC AUC score, showing the best
 
 | Model              | Accuracy | F1 Score | ROC AUC |
 |-------------------|----------|----------|---------|
-| Gradient Boosting | ~0.80    | ~0.48    | **Best** |
-| Random Forest     | ~0.81    | ~0.46    | Good    |
-| Logistic Regression | ~0.80 | ~0.46    | Moderate |
-| Naive Bayes       | ~0.65    | ~0.32    | Low     |
+| Gradient Boosting | ~0.65    | ~0.32    | **~0.75** |
+| Random Forest     | ~0.67    | ~0.30    | ~0.70    |
+| Logistic Regression | ~0.66 | ~0.32    | ~0.74|
+| Naive Bayes       | ~0.87    | ~0.40    | ~0.72     |
 
 ---
 
